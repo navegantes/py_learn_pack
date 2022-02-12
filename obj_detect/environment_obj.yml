@@ -1,0 +1,14 @@
+name: obj_det
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.21.*
+  - pandas=1.3.5
+  - matplotlib=3.5.0
+  - tensorflow-gpu=2.6.0
+  - pip
+
+  - pip:
+      - opencv-python==4.5.3.56
+      - cvlib
